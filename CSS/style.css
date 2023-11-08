@@ -1,5 +1,6 @@
 html {
-    font-size: 16px;
+    font-size: 14px;
+    font-family: Cereal,sans-serif;
 }
 
 /*********** NAVBAR ***********/
@@ -14,5 +15,13 @@ html {
         font-size: 1.5rem;
     }
 }
-
+#search-icon {
+    height: 1.2rem;
+    width: 1.3rem;
+}
+#dropdown-languages {
+    & a {
+        text-decoration: underline black;
+    }
+}
 /****** To Be continued *****/
