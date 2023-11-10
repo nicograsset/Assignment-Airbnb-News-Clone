@@ -24,4 +24,38 @@ html {
         text-decoration: underline black;
     }
 }
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+.nav-item {
+    & a {
+        font-weight: 500;
+    }
+}
 /****** To Be continued *****/
+@media (min-width: 992px) {
+    #navbar-form {
+        display: none;
+    }
+    .dropdown {
+        & span {
+            display: none;
+        }
+    }
+}
+@media (max-width: 992px) {
+    #navbar-search{
+        display: none;
+    }
+    #earth-icon {
+        height: 1.2rem;
+        width: 1.3rem;
+    }
+    #search-button {
+        position: absolute;
+    }
+    #search-icon-button {
+        height: 1.2rem;
+        width: 1.3rem;
+    }
+}
