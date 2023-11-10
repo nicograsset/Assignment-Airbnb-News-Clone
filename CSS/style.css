@@ -43,6 +43,7 @@ html {
         }
     }
 }
+/****** Media Queries *****/
 @media (max-width: 992px) {
     #navbar-search{
         display: none;
