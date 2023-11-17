@@ -43,6 +43,11 @@ html {
             display: none;
         }
     }
+    #hero-main-text {
+        font-weight: 500;
+        font-size: 2.5rem;
+        color: black;
+    }
 }
 @media (max-width: 992px) {
     #navbar-search{
@@ -58,5 +63,10 @@ html {
     #search-icon-button {
         height: 1.2rem;
         width: 1.3rem;
+    }
+    #hero-main-text {
+        font-weight: 500;
+        font-size: 1.3rem;
+        color: black;
     }
 }
