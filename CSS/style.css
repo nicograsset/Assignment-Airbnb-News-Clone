@@ -32,6 +32,19 @@ html {
         font-weight: 500;
     }
 }
+
+/****** Hero Content *****/
+
+#date-hero {
+    color: #767676;
+    font-weight: 300;
+}
+.btn-custom {
+    background-color: #DA0963;
+    color: white;
+    padding: 10px 24px;
+    border-radius: 10px;
+}
 /****** To Be continued *****/
 /****** Media Queries *****/
 @media (min-width: 992px) {
@@ -45,7 +58,8 @@ html {
     }
     #hero-main-text {
         font-weight: 500;
-        font-size: 2.5rem;
+        font-size: 3rem;
+        line-height: normal;
         color: black;
     }
 }
@@ -67,6 +81,7 @@ html {
     #hero-main-text {
         font-weight: 500;
         font-size: 1.3rem;
+        line-height: normal;
         color: black;
     }
 }
