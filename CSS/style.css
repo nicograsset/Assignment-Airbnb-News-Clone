@@ -35,7 +35,7 @@ html {
 
 /****** Hero Content *****/
 
-#date-hero {
+.date-style {
     color: #767676;
     font-weight: 300;
 }
@@ -45,6 +45,20 @@ html {
     padding: 10px 24px;
     border-radius: 10px;
 }
+.img-config {
+    border-radius: 10px;
+}
+.header-article {
+    width: 70%;
+}
+article a {
+    color: black;
+    &:hover {
+        color: black;
+        text-decoration: underline black;
+    }
+}
+
 /****** To Be continued *****/
 /****** Media Queries *****/
 @media (min-width: 992px) {
@@ -56,10 +70,15 @@ html {
             display: none;
         }
     }
-    #hero-main-text {
+    #hero-main-title-style {
         font-weight: 500;
         font-size: 3rem;
         line-height: normal;
+        color: black;
+    }
+    .main-titles-style {
+        font-weight: 500;
+        font-size: 3rem;
         color: black;
     }
 }
@@ -78,10 +97,28 @@ html {
         height: 1.2rem;
         width: 1.3rem;
     }
-    #hero-main-text {
+    #hero-main-title-style {
         font-weight: 500;
         font-size: 1.3rem;
         line-height: normal;
         color: black;
+    }
+    .main-titles-style {
+        font-weight: 500;
+        font-size: 1.3rem;
+        color: black;
+    }
+    .header-article a h3 {
+        font-weight: 500;
+        font-size: 1rem;
+        color: black;
+    }
+    .header-article {
+        height: 30%;
+    }
+}
+@media (max-width:576px) {
+    .article-img-container {
+        width: 80%;
     }
 }
