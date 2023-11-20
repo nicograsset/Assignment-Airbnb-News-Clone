@@ -46,7 +46,7 @@ html {
     border-radius: 10px;
 }
 
-/****** Articles *****/
+/****** First-Article-Content *****/
 
 .img-config {
     border-radius: 10px;
@@ -62,8 +62,17 @@ article a {
     }
 }
 
-/****** To Be continued *****/
+/****** Second-Article-Content *****/
+
+.colored-section {
+    background-color: #F7F7F7;
+}
+.scrollableRow {
+    overflow-x: scroll;
+}
+
 /****** Media Queries *****/
+
 @media (min-width: 992px) {
     #navbar-form {
         display: none;
@@ -83,6 +92,9 @@ article a {
         font-weight: 500;
         font-size: 3rem;
         color: black;
+    }
+    .secondary-font-style {
+        font-size: 1.4rem;
     }
 }
 @media (max-width: 992px) {
@@ -118,6 +130,9 @@ article a {
     }
     .header-article {
         height: 30%;
+    }
+    .secondary-font-style {
+        font-size: 1rem;
     }
 }
 @media (max-width:576px) {
