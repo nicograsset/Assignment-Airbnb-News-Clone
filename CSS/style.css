@@ -66,9 +66,25 @@ article a {
 
 .colored-section {
     background-color: #F7F7F7;
+    &  img {
+        border-top-right-radius: 3%;
+        border-top-left-radius: 3%;
+    }
+    & .aspectRatio {
+        aspect-ratio: 1;
+        object-fit: cover;
+    }
+    & .scrollableRow {
+        overflow-x: scroll;
+    }
+    & .container-style {
+        border-radius: 3%;
+        border: #DDDDDD 1px solid;
+    }
 }
-.scrollableRow {
-    overflow-x: scroll;
+.container-test-config {
+    height: 80vh;
+    width: 30vh;
 }
 
 /****** Media Queries *****/
