@@ -46,7 +46,7 @@ html {
     border-radius: 10px;
 }
 
-/****** First-Article-Content *****/
+/****** Article-Content *****/
 
 .img-config {
     border-radius: 10px;
@@ -62,7 +62,7 @@ article a {
     }
 }
 
-/****** Second-Article-Content *****/
+/****** Colored-Article-Content *****/
 
 .colored-section {
     background-color: #F7F7F7;
@@ -81,6 +81,14 @@ article a {
         border-radius: 3%;
         border: #DDDDDD 1px solid;
     }
+}
+
+/****** Social Media Section *****/
+
+.logo-social-media{
+    height: 5vh;
+    border: solid 1px black;
+    border-radius: 35%;
 }
 
 /****** Media Queries *****/
