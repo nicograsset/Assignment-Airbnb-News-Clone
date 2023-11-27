@@ -97,6 +97,17 @@ article a {
 /****** Footer *****/
 footer {
     background-color: #F7F7F7;
+    & a {
+        color: black;
+        font-weight: 300;
+    }
+    & a:hover {
+        color: black;
+    }
+    & p {
+        color: black;
+        font-weight: 300;
+    }
 }
 
 /****** Media Queries *****/
