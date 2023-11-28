@@ -108,6 +108,9 @@ footer {
         color: black;
         font-weight: 300;
     }
+    & img {
+        height: 2.5vh;
+    }
 }
 
 /****** Media Queries *****/
