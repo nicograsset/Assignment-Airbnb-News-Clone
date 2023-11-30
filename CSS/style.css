@@ -29,6 +29,7 @@ html {
 }
 .nav-item {
     & a {
+        font-size: 1.1rem;
         font-weight: 500;
     }
 }
@@ -44,6 +45,9 @@ html {
     color: white;
     padding: 10px 24px;
     border-radius: 10px;
+}
+.btn-custom:hover {
+    color: #D3D3D3;
 }
 
 /****** Article-Content *****/
@@ -88,7 +92,7 @@ article a {
 
 /****** Social Media Section *****/
 
-.logo-social-media{
+.logo-social-media {
     height: 5vh;
     border: solid 1px black;
     border-radius: 35%;
